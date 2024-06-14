@@ -13,6 +13,10 @@ So, it makes sense to try this model out, but then switch to the bigger one to l
 
 # Using it
 
+## Transformers library
+
+(coming)
+
 ## oobabooga
 
 (https://github.com/oobabooga/text-generation-webui)
