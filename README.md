@@ -15,6 +15,8 @@ So, it makes sense to try this model out, but then switch to the bigger one to l
 
 ## oobabooga
 
+(https://github.com/oobabooga/text-generation-webui)
+
 Go to the `Models` tab and then enter `ctitools/neurocti-small` into the "Download model or LoRA" field. Press "Download"
 Then refresh the "Loras" dropdown box and then apply the Lora adapter.
 
@@ -22,4 +24,13 @@ Then refresh the "Loras" dropdown box and then apply the Lora adapter.
 
 Go to the chat interface and make sure that the instruct-chat option is selected
 <img width="1482" alt="Screenshot 2024-06-14 at 09 37 10" src="https://github.com/ctitools/neurocti-small/assets/750019/78968bee-959c-4825-aa95-618fcc3e93da">
+
+
+Note that due to the smaller size (llama-3-8B based), the model sometimes get's it wrong. In that case, just repeat your question in the chat, like so:
+
+<img width="1482" alt="Screenshot 2024-06-14 at 09 54 11" src="https://github.com/ctitools/neurocti-small/assets/750019/e3f99875-4872-4db3-b89f-4f98540623c5">
+
+### JSON mode
+
+In oobabooga, switch to the `Parameters` tab and select a JSON grammar. Also make sure that your prompt contains something like `Write the answer in JSON format`. It also helps to give examples (few-shot prompting).
 
