@@ -1,7 +1,8 @@
-![asian-hacker](https://github.com/ctitools/neurocti-small/assets/750019/975e8ca9-b6f0-4fdd-b750-a4b2078ab7a7)
+
 
 # neurocti-small
 
+![asian-hacker-512](https://github.com/ctitools/neurocti-small/assets/750019/30b6afa8-ee24-4e6b-a47c-f39191cc114b)
 
 
 This repository shows you how to use the [neurocti-small](https://huggingface.co/ctitools/neurocti-small) model.
