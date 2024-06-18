@@ -11,6 +11,11 @@ It is a [LoRA](https://arxiv.org/abs/2106.09685) adapter on top of [llama-3-8b-i
 Please note that this is currently still the small model based on llama-3-8B-instruct and we are re-training on a bigger model.
 So, it makes sense to try this model out, but then switch to the bigger one to leverage the bigger model's capabilities.
 
+# SBOM / model provenance
+We trained the model directly on the official [llama-3-8b-instruct](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct) model as well as on a cleaned up [ORKL.eu](https://www.orkl.eu) data dump. No other intermediate models were used.
+
+Cutoff date for the training data: May 26th 2024.
+
 # Using it
 
 ## Transformers library
