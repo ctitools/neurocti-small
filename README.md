@@ -12,7 +12,7 @@ Please note that this is currently still the small model based on llama-3-8B-ins
 So, it makes sense to try this model out, but then switch to the bigger one to leverage the bigger model's capabilities.
 
 # SBOM / model provenance
-We trained the model directly on the official [llama-3-8b-instruct](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct) model as well as on a cleaned up [ORKL.eu](https://www.orkl.eu) data dump. No other intermediate models were used.
+We trained the model directly on the official [llama-3-8b-instruct](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct) model as well as on a cleaned up [ORKL.eu](https://orkl.eu) data dump. No other intermediate models were used.
 
 Cutoff date for the training data: May 26th 2024.
 
